@@ -1,7 +1,7 @@
 ## This is a project to show the problem when using Yasson with Groovy
 
 ### Execute the test by
->./gradlew testclear --info
+>./gradlew test --info
 
 You will see the GroovyUserSpecification will be failed because of
 >EVERE: Generating incomplete JSON  
