@@ -3,7 +3,7 @@ package com.pogo
 import groovy.transform.ToString
 
 @ToString(includeNames = true)
-class User {
+class GroovyUser {
     String name
     Integer age
 }

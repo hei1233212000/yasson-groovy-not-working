@@ -4,7 +4,7 @@ import com.google.common.base.MoreObjects;
 
 import java.io.Serializable;
 
-public class User implements Serializable {
+public class JavaUser implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private String name;
@@ -48,11 +48,11 @@ public class User implements Serializable {
             return this;
         }
 
-        public User build() {
-            User user = new User();
-            user.setName(name);
-            user.setAge(age);
-            return user;
+        public JavaUser build() {
+            JavaUser javaUser = new JavaUser();
+            javaUser.setName(name);
+            javaUser.setAge(age);
+            return javaUser;
         }
     }
 }
